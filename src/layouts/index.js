@@ -28,7 +28,7 @@ const Layout = ({ children, data }) => (
         height: '100%',
       }}
     >
-      <Media query={{ maxWidth: 848 }}>
+      <Media query={{ maxWidth: 848 }} defaultMatches={false}>
         {matches =>
           matches ? (
             <div
